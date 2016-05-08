@@ -9,10 +9,16 @@
 cubes_by_four = [x**3 for x in range(1,11) if (x**3) % 4 ==0]
 print cubes_by_four
 
-
-# list slicing
+# 7 List slicing
 l = [i ** 2 for i in range(1, 11)]
 # will print  [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
 print l[2:9:2]
 # will print [9, 25, 49, 81]
+
+
+# 8. Omitting indexes.
+my_list = range(1, 11) # List of numbers 1 - 10
+
+# will print with from beginning to end with a stride of three numbers.
+print my_list[::3]
