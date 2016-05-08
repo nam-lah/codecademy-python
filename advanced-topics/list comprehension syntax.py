@@ -19,12 +19,8 @@ print l[2:9:2]
 
 # 8. Omitting indexes.
 my_list = range(1, 11) # List of numbers 1 - 10
-
 # will print with from beginning to end with a stride of three numbers.
 print my_list[::3]
 
 # negative striding, reverse listing
-my_list = range(1, 11)
-
-# Add your code below!
-backwards = my_list[::-1]
+my_list[::-1]
